@@ -1,0 +1,86 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[top=2.5cm, bottom=2.5cm, left=2.5cm, right=2.5cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath, amsfonts, amssymb}
+\usepackage[portuguese]{babel}
+\usepackage{blkarray, bigstrut}
+\usepackage{setspace}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{tikz}
+\usepackage{easybmat}
+\newcommand*\circled[1]{\tikz[baseline=(char.base)]{
+            \node[shape=circle,draw,inner sep=2pt] (char) {#1};}}
+
+
+\begin{document}
+\begin{center}
+Curso de Tecnologia em Sistemas de Computação \\
+Disciplina : Física para Computação \\
+AD1 - Segundo Semestre de 2019 \\
+Nome: Fábio de Oliveira Branco\\ 
+\end{center} 
+
+
+\begin{enumerate}
+% Questão 1
+\item \begin{enumerate}
+	% letra A
+	\item 
+	 $\vec{D_1} = 0\hat{\imath} + 25\hat{\jmath}$ \\
+	
+	$\vec{D_2} = -60 \, sen\,57\,\hat{\imath} + \,\,60 \, cos\,57\,\hat{\jmath}$ \\
+	
+	$|\vec{D_1}| = \sqrt{(25)^2} = 25$ \\
+	
+	$|\vec{D_2}| = \sqrt{(-60 \, sen\,57\,\hat{\imath})^2 + ( \,\,60 \, cos\,57\,\hat{\jmath})^2}$ \\
+	
+	$|\vec{D_2}| = \sqrt{2532,1 1067,9}$ \\
+	
+	$|\vec{D_2}| = \sqrt{3600}$ \\
+	
+	$|\vec{D_2}| = 60$ \\
+	
+	Para encontrar o módulo do vetor resultante utilizamos a lei de cossenos: \\ 
+	
+	 Resposta: $|\vec{D}_R| = \sqrt{25^2 + 2\,(25)(60)\, cos\,57} \neq 76,54km$\\
+	
+	% letra B
+	\item $\vec{D}_{Rx}$
+\end{enumerate}
+
+% Questão 2
+\item \begin{enumerate}
+	\item $\displaystyle{\lim_{x\to+\infty} \sqrt[3]{\dfrac{3x + 5}{6x - 8}}} = \displaystyle{\lim_{x\to+\infty} \sqrt[3]{\dfrac{x(3 +\frac{5}{x})}{x(6 - \frac{8}{x})}}} = 		\displaystyle{\lim_{x\to+\infty} \sqrt[3]{\dfrac{3 +\frac{5}{x}}{6 - \frac{8}{x}}}}$ \\ \\
+	
+	Aplicando as propriedades dos limites infinitos em $\dfrac{5}{x}$ e $\dfrac{8}{x}$\\ obtemos  $\dfrac{5}{x} = 0$ \,\,\, e \,\,\, $\dfrac{8}{x} = 0$ \\ 
+
+	Então:\\
+
+	$\displaystyle{\lim_{x\to+\infty} \sqrt[3]{\dfrac{3 +\frac{5}{x}}{6 - \frac{8}{x}}}} = \displaystyle{\sqrt[3]{\dfrac{3 + 0}{6 - 0}}} = \displaystyle{\sqrt[3]{\dfrac{3}		{6}}} = \displaystyle{\sqrt[3]{\dfrac{1}{2}}}$ \\ \\
+	
+	\item $\displaystyle{\lim_{x\to+\infty} \dfrac{\sqrt{x^2 + 2}}{3x -6}} = \displaystyle{\lim_{x\to+\infty} \dfrac{\sqrt{x^2(1 + \frac{2}{x^2})}}{x(3 - \frac{6}{x})}} =  \displaystyle{\lim_{x\to+\infty} \dfrac{\sqrt{x^2} \,\,\,\,\,\, \sqrt{1 + \frac{2}{x^2}}}{x(3 - \frac{6}{x})}} =  \displaystyle{\lim_{x\to+\infty} \dfrac{x \,\,\, \sqrt{1 + \frac{2}{x^2}}}{x \,\,\, (3 - \frac{6}{x})}}$\\ \\
+
+$= \displaystyle{\lim_{x\to+\infty} \dfrac{\sqrt{1 + \frac{2}{x^2}}}{3 - \frac{6}{x}}}$ \\ \\
+	 
+	 	
+	Aplicando as propriedades dos limites infinitos em $\dfrac{2}{x^2}$ e $\dfrac{6}{x}$\\ obtemos  $\dfrac{2}{x^2} = 0$ \,\,\, e \,\,\, $\dfrac{6}{x} = 0$ \\ 
+
+	Então:\\ \\
+	
+		 $= \displaystyle{\lim_{x\to+\infty} \dfrac{\sqrt{1 + \frac{2}{x^2}}}{3 - \frac{6}{x}}} = \displaystyle{\dfrac{\sqrt{1 + 0}}{3 - 0}} = \displaystyle{\dfrac{\sqrt{1}}{3}} = \displaystyle{\dfrac{1}{3}}$
+	
+	
+
+	
+
+
+	
+
+\end{enumerate}
+	
+	 
+\end{enumerate}
+
+ 
+\end{document}
