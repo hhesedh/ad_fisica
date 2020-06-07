@@ -40,8 +40,41 @@ Calculando o valor médio da distribuição através da fórmula obtemos: \\
 $\mu = \int _1^3\dfrac{1}{10}x\left(x-1\right)\left(3x-2\right)dx = \dfrac{1}{10}\times \int _1^3x\left(x-1\right)\left(3x-2\right)dx =$\\
 $\dfrac{1}{10}\times \int _1^33x^3-5x^2+2xdx =\dfrac{1}{10} \times 3\left[\dfrac{x^3}{3}\right]^3_1 -5\left[\dfrac{x^3}{3}\right]^3_1 + 2\left[\dfrac{x^2}{2}\right]^3_1 =  $ \\
 $\dfrac{1}{10}\left(60-\dfrac{130}{3}+8\right) = \dfrac{37}{15} \cong 2,47$
+
+% Letra c)
+\item Para calcular a variãncia da distribuição iremos usar a seguinte fórmula: \\
+$$\sigma^2 = \int_{-\infty}^{\infty} x^2 \,\, f(x) \,\, dx \,\, - \mu^2$$\\
+
+Calculando o resultado: \\
+$\int _1^3\dfrac{1}{10}x^2\left(x-1\right)\left(3x-2\right)dx = \dfrac{1}{10}\times \int _1^3x^2\left(x-1\right)\left(3x-2\right)dx$\\
+$\dfrac{1}{10}\times \int _1^33x^4-5x^3+2x^2dx = \dfrac{1}{10}(3\left[\dfrac{x^5}{5}\right]^3_1 - 5\left[\dfrac{x^4}{4}\right]^3_1 + 2\left[\frac{x^3}{3}\right]^3_1) = $ \\
+$\dfrac{1}{10}(\dfrac{726}{5} - 100 + \dfrac{52}{3}) = \dfrac{469}{75}$\\ \\
+Agora podemos calcular a variância: \\ 
+$\sigma^2 = \dfrac{469}{75} -2,47^2 \cong 0,15$ 
 \end{enumerate}
-	
+%Fim questão 1 
+\newpage
+% Questão 2
+\item \begin{enumerate}
+% letra a
+\item Para verificar se as expressões são distriuições de probabilidade temos que integrar a função, caso o resultado seja 1  então podemos comprovar que a expressão é uma distribuição de probabilidade. \\
+
+$\int _{-1}^06\left(x^2-1\right)\left(x-x^3\right)dx = 6 \times \int _{-1}^0\left(x^2-1\right)\left(x-x^3\right)dx =$\\
+$6\times \int _{-1}^0-x^5+2x^3-xdx = 6\left(-\int _{-1}^0x^5dx+\int _{-1}^02x^3dx-\int _{-1}^0xdx\right) = $\\
+$6\left(-\left(-\frac{1}{6}\right)-\frac{1}{2}-\left(-\frac{1}{2}\right)\right) =  1$\\ \\
+Verificamos que esta expressão é uma distribuição de probabilidade.\\ 
+%letra b
+\item $\int _2^4\left(x-3\right)\left(x-2\right)+1dx = \int _2^4x^2-5x+7dx = \int _2^4x^2dx-\int _2^45xdx+\int _2^47dx = $ \\
+$\dfrac{56}{3}-30+14 = \dfrac{8}{3}$ \\ \\
+
+Normalizando a função para obter a distribuição de probabilidade: \\
+$f(x) = \dfrac{3}{8}(x-3)(x-2)+1$ \\
+
+% letra c
+\item $\int _0^1e^x-edx = \int _0^1e^xdx-\int _0^1edx = e-1-e = -1$ \\ \\
+Através da integração da função acima percebemos que a expressão não é uma função de probabilidade, pois seu resultado é menor que zero.
+
+\end{enumerate}	
 	 
 \end{enumerate}
 
