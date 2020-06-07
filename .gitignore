@@ -14,3 +14,9 @@ ad1_fisica.log
 ad1_fisica.pdf
 
 ad1_fisica.synctex.gz
+
+*.log
+
+*.gz
+
+*.aux
